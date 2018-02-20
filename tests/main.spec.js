@@ -38,4 +38,13 @@ describe("Spotify", () => {
       expect(searchPlaylists).to.exist;
     });
   });
+
+  describe("Generic Search", () => {
+    it("should call fetch function", () => {
+      const fetchedStub = sinon.stub(global, "fetch");
+      const artists = search();
+
+      expect(fetchedStub).to.have.been.calledOnce;
+    });
+  });
 });
