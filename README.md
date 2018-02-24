@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/dmgv/spotify-api-wrapper.svg?branch=master)](https://travis-ci.org/dmgv/spotify-api-wrapper)
 
+[![Coverage Status](https://coveralls.io/repos/github/dmgv/spotify-api-wrapper/badge.svg?branch=master)](https://coveralls.io/github/dmgv/spotify-api-wrapper?branch=master)
+
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
 ## Browser Support
