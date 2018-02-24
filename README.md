@@ -1,8 +1,8 @@
 # Spotify Wrapper
 
 [![Build Status](https://travis-ci.org/dmgv/spotify-api-wrapper.svg?branch=master)](https://travis-ci.org/dmgv/spotify-api-wrapper)
-
 [![Coverage Status](https://coveralls.io/repos/github/dmgv/spotify-api-wrapper/badge.svg?branch=master)](https://coveralls.io/github/dmgv/spotify-api-wrapper?branch=master)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
