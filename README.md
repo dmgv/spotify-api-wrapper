@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/dmgv/spotify-api-wrapper/badge.svg?branch=master)](https://coveralls.io/github/dmgv/spotify-api-wrapper?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Known Vulnerabilities](https://snyk.io/test/github/dmgv/spotify-api-wrapper/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dmgv/spotify-api-wrapper?targetFile=package.json)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fb74992d9e94ec65c7cd/maintainability)](https://codeclimate.com/github/dmgv/spotify-api-wrapper/maintainability)
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
