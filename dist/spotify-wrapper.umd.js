@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["spotufyWrapper"] = factory();
+		exports["spotifyWrapper"] = factory();
 	else
-		root["spotufyWrapper"] = factory();
+		root["spotifyWrapper"] = factory();
 })(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
