@@ -23,7 +23,7 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 ## Installation
 
 ```bash
-npm install spotify-wrapper --save
+npm i spotify-api-wrapper --save
 ```
 
 ## How to use

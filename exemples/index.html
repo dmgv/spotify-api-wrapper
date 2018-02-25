@@ -10,10 +10,14 @@
 
   <div id="albums"></div>
 
-  <script src="../dist/spotify-wrapper.umd.js"></script>
+  <script src="../dist/spotify-wrapper.umd.min.js"></script>
 
   <script>
-    const albums = spotifyWrapper.searchAlbums('Incubus');
+    const spotify = new spotifyWrapper({
+      token: 'BQCV-vP5DSDY685K6CwqUifH28ECDUFNnuMOGNFyf9eLTCnEyIidtTd0IfK2RbT3pXTEMfi8tDrn_smc3VMrWMg6J2igxD5YSzPtdFdyLP3LUTzhzDIl4EyO1bENZlWYBnhdiVq0Qvw_NLazzA'
+    })
+
+    const albums = spotify.search.albums('Neelix');
     const albumsEl = document.getElementById('albums');
 
     albums
