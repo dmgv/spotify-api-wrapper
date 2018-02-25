@@ -2,7 +2,7 @@
   "name": "spotify-api-wrapper",
   "version": "1.0.0",
   "description": "A wrapper to work with the Spotify Web API.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "clear": "rimraf lib",
     "lint": "./node_modules/.bin/eslint src/*.js",
@@ -16,6 +16,10 @@
     "build:all": "npm rum build && npm run build:umd && npm run build:umd:min",
     "coveralls": " npm run test:coverage && nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "nyc": {
     "reporter": [
       "text",
